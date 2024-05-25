@@ -45,5 +45,39 @@
   /* ******************************** */
   /* ******************************** */
 
-  /* Adding responsivness */
+  /* Adding responsivness to the features section */
+
+  .features-section .top-features-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  /* ******************************** */
+  /* ******************************** */
+
+  /* Adding responsivness to the articles section */
+
+  .article-section .articles {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2rem;
+  }
+
+  /* ******************************** */
+  /* ******************************** */
+
+  /* Adding responsivness to the footer section */
+
+  body .footer-container {
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .footer-container .left-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+  }
 }
