@@ -76,17 +76,36 @@
 
   /* Adding responsivness to the footer section */
 
+  body .footer-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
   body .footer-container {
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: start;
-    align-items: start;
+    align-items: center;
     gap: 2rem;
     padding: 1rem;
   }
 
   .footer-container .left-container {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .footer-container .contact {
+    gap: 0.5rem;
+  }
+
+  .footer-container .contact1 {
+    justify-content: center;
+  }
+
+  .footer-container .right-container {
+    align-items: center;
+    gap: 1rem;
   }
 }
 
