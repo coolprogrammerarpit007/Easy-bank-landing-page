@@ -1,3 +1,5 @@
+@import url("./responsive.css");
+
 * {
   padding: 0;
   margin: 0;
@@ -93,7 +95,8 @@ body {
 }
 
 #btn-request,
-#btn-request-online {
+#btn-request-online,
+#request-btn2 {
   padding: 1.5rem 3rem;
   text-transform: capitalize;
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
@@ -372,3 +375,19 @@ body {
 /* ************************************ */
 
 /* End of footer section */
+
+/* **************************** */
+/* ****** Hamburger Menu ****** */
+/* **************************** */
+
+.menu-btn {
+  background-color: hsl(136, 65%, 51%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
