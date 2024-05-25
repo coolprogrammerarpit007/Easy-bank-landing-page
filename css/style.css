@@ -385,7 +385,13 @@ body {
   padding: 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  display: none;
+}
+
+.menu-close {
+  background-color: hsl(136, 65%, 51%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .hidden {

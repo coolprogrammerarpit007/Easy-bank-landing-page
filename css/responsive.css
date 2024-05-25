@@ -6,14 +6,22 @@
 @media only screen and (max-width: 768px) {
   /* Responsivness to the navigation page */
 
-  body .links {
+  .nav .navbar {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .nav .links {
     display: none;
   }
-  body #btn-request {
+
+  .nav #btn-request {
     display: none;
   }
-  body .menu-btn {
-    display: initial;
+
+  .menu-btn {
+    display: block;
   }
 
   /* ************************* */
@@ -79,5 +87,11 @@
   .footer-container .left-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 10rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-btn {
+    display: none;
   }
 }
